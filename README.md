@@ -3,6 +3,11 @@ Send Discord Webhooks
 
 Look at the config.lua it's all descriped there.
 
+## Export [ONLY serverside]
+```lua
+exports['msk_webhook']:sendDiscordLog(webhook, botColor, botName, botAvatar, title, description, fields, footer, time)
+```
+
 ## Description
 ```
 webhook = "WEBHOOK_LINK"
@@ -33,8 +38,4 @@ footer = {
     link = "https://i.imgur.com/PizJGsh.png"
 },
 time = "%d/%m/%Y %H:%M:%S" -- format: "day/month/year hour:minute:second"
-```
-## Export [ONLY serverside]
-```lua
-exports['msk_webhook']:sendDiscordLog(webhook, botColor, botName, botAvatar, title, description, fields, footer, time)
 ```
