@@ -1,8 +1,6 @@
 # msk_webhook
 Send Discord Webhooks
 
-Look at the config.lua it's all descriped there.
-
 ## Export [ONLY serverside]
 ```lua
 exports['msk_webhook']:sendDiscordLog(webhook, botColor, botName, botAvatar, title, description, fields, footer, time)
