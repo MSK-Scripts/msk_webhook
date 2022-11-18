@@ -20,7 +20,7 @@ footer = false to deactive it
 time = false to deactive it
 ```
 
-```
+```lua
 webhook = "https://discordapp.com/api/webhooks/101088",
 botColor = "6205745", -- https://www.mathsisfun.com/hexadecimal-decimal-colors.html
 botName = "MSK Scripts",
