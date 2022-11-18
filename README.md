@@ -39,4 +39,4 @@ time = "%d/%m/%Y %H:%M:%S" -- format: "day/month/year hour:minute:second"
 ```
 
 ## Credits
-* (cmd2401)[https://github.com/cmd2401]
+* [cmd2401](https://github.com/cmd2401)
