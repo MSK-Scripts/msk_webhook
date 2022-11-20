@@ -1,6 +1,7 @@
 if Config.testCommand.enable then
     RegisterCommand(Config.testCommand.command, function(source, args, rawCommand)
-        exports['msk_webhook']:sendDiscordLog(Config.Webhook.webhook, Config.Webhook.botColor, Config.Webhook.botName, Config.Webhook.botAvatar, Config.Webhook.title, Config.Webhook.description, Config.Webhook.fields, Config.Webhook.footer, Config.Webhook.time)
+        local data = Config.testCommand.data
+        exports['msk_webhook']:sendDiscordLog(data.webhook, data.botColor, data.botName, data.botAvatar, data.title, data.description, data.fields, data.footer, data.time)
     end)
 end
 
