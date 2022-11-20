@@ -7,17 +7,17 @@ exports['msk_webhook']:sendDiscordLog(webhook, botColor, botName, botAvatar, tit
 ```
 
 ## Description
-```
+```lua
 webhook = "WEBHOOK_LINK"
 
-botColor = false to deactivate it
-botName = false to deactivate it
-botAvatar = false to deactivate it
-title = false to deactivate it
-description = false to deactivate it
-fields = false to deactive it
-footer = false to deactive it
-time = false to deactive it
+botColor = false -- to deactivate it
+botName = false -- to deactivate it
+botAvatar = false -- to deactivate it
+title = false -- to deactivate it
+description = false -- to deactivate it
+fields = false -- to deactive it
+footer = false -- to deactive it
+time = false -- to deactive it
 ```
 
 ```lua
