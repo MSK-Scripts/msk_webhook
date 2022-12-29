@@ -1,3 +1,11 @@
+AddEventHandler('onResourceStart', function(resource)
+	if GetCurrentResourceName() ~= 'msk_webhook' then
+        print('^1Please rename the Script to^3 msk_webhook^0!')
+        print('^1Server will be shutdown^0!')
+        os.exit()
+    end
+end)
+
 if Config.testCommand.enable then
     RegisterCommand(Config.testCommand.command, function(source, args, rawCommand)
         local data = Config.testCommand.data
