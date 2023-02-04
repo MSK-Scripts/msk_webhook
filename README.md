@@ -37,7 +37,3 @@ footer = {
 },
 time = "%d/%m/%Y %H:%M:%S" -- format: "day/month/year hour:minute:second"
 ```
-
-## Credits
-* [Musiker15](https://github.com/Musiker15)
-* [cmd](https://github.com/msk-cmd)
